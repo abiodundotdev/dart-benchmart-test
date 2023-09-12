@@ -1,0 +1,15 @@
+targets:
+  $default:
+    builders:
+      sourcegengenerator|modelBuilder:
+        enabled: true
+
+builders:
+  sourcegengenerator:
+    target: ":sourcegengenerator"
+    import: "package:sourcegengenerator/sourcegengenerator.dart"
+    builder_factories: ["generateClass"]
+    build_extensions: { ".dart": [".g.dart"] }
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]
