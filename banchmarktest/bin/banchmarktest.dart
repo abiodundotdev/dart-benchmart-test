@@ -1,5 +1,7 @@
-import 'package:banchmarktest/banchmarktest.dart' as banchmarktest;
+import 'package:banchmarktest/bc.dart' as banchmarktest;
+import 'package:banchmarktest/bc.dart';
 
 void main(List<String> arguments) {
-  print('Hello world: ${banchmarktest.calculate()}!');
+  //HarnessFacade.generateReport();
+  print("Hello welcome on board");
 }
