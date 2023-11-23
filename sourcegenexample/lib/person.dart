@@ -10,5 +10,4 @@ class Person {
 }
 
 void main() {
-  print(name);
 }

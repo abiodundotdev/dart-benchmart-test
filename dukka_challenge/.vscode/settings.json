@@ -1,0 +1,6 @@
+{
+    "diffEditor.diffAlgorithm": "advanced",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    }
+}
